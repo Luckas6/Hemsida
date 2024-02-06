@@ -1,0 +1,146 @@
+body{
+    background-image: url(Images/blueb.png);
+    background-size: cover;
+    background-position: center;
+    position:relative;
+}
+.glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  
+.comment{
+    
+    margin-bottom: 5%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-left: 10%;
+    position: center, absolute;
+    background-color: rgb(142, 141, 154);
+    border-color: black;
+    border: 1px;
+    padding: black 1px;
+    
+    
+}
+.låda{
+    width: 60%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0,0,0,0.2)), url(Images/hoi41.jfif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    align-content: center;
+    align-self: center;
+    margin-left: 20%;
+    
+}
+.ucbox{
+    margin: 10px;
+    border-color:black;
+    border: 1px;
+}
+.ttext{
+    background-color: #fff;
+    color: black;
+    padding: 3px;
+    
+}
+.text-box{
+    width: 90%;
+    color: black;
+    position: relative;
+    margin-top: 100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+}
+.text-box h1{
+    font-size: 64px;
+
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.hero-btn{
+    display:inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    border: 1px solid- #f44336;
+    background: #f44336;
+    transition:1s ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* navegations bar */
+.nav-links{
+    flex: 1;
+    text-align: right;
+    background-color: rgb(25, 10, 50);
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-links ul li::after{
+    content: '' ;
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+    
+}
+nav{
+    display: flex;
+    padding: 2% 6% ;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 150px;
+}

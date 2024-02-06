@@ -1,0 +1,62 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0,0,0,0.2)), url(Images/hoi41.jfif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    }
+
+#låda{
+    width: 100%;
+    height: 100vh;
+    position: center, absolute;
+    background-color: white;
+}
+#box{
+
+    background-color: white;
+   margin: auto;
+   width: 400px;
+   padding: 5px;
+   border-radius: 5px;
+}
+/* navegations bar */
+.nav-links{
+    flex: 1;
+    text-align: right;
+    background-color: rgb(25, 10, 50);
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-links ul li::after{
+    content: '' ;
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+    
+}
+nav{
+    display: flex;
+    padding: 2% 6% ;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 150px;
+}
